@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-
+//code block
 export default function Form() {
     const studentNames = useSelector(state => state)
     const dispatch = useDispatch()
@@ -22,9 +22,6 @@ export default function Form() {
 
         addname({ ...names, [e.target.name]: e.target.value });
     }
-
-
-
 
     return (
         <div>
